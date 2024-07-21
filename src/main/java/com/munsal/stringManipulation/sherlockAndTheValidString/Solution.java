@@ -42,6 +42,8 @@ class Result {
             Integer numberOfRepeat = reversedMap.keySet().stream().collect(Collectors.toList()).get(0);
             Integer howManyElementsHaveTheSameCondition = reversedMap.values().stream().collect(Collectors.toList()).get(0);
 
+            if(reversedMap.values().size() <= 1) return "YES";
+
             if(numberOfRepeat <= 1 && howManyElementsHaveTheSameCondition<= 1) {
                 return "YES";
             }
