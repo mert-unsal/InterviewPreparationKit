@@ -1,4 +1,4 @@
-package com.munsal.stringManipulation;
+package com.munsal.stringManipulation.makeAnagram;
 
 import java.io.IOException;
 import java.util.HashMap;
